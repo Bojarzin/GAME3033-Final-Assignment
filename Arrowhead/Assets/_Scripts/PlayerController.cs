@@ -175,7 +175,7 @@ public class PlayerController : MonoBehaviour
     {
         if (chargeDive && diveStrength < maxDiveStrength)
         {
-            diveStrength += 0.1f;
+            diveStrength += 30.0f * Time.deltaTime;
         }
         if (diveStrength > maxDiveStrength)
         {
