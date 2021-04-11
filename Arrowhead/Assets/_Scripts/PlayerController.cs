@@ -10,22 +10,31 @@ public class PlayerController : MonoBehaviour
 
     /// Movement
     [Header("Movement")]
-    [SerializeField] Rigidbody rigidbody;
+    [SerializeField] public Rigidbody rigidbody;
     [SerializeField] Transform arrowTip;
-    [SerializeField] float moveSpeed;
-    [SerializeField] float diveStrength;
-    [SerializeField] float maxDiveStrength;
-    [SerializeField] float rotationSpeed;
-    [SerializeField] float diveTurnSpeed;
-    [SerializeField] float diveRotationSpeed;
-    [SerializeField] float jumpStrength;
+    public float moveSpeed;
+    public float diveStrength;
+    public float maxDiveStrength;
+    public float rotationSpeed;
+    public float diveTurnSpeed;
+    public float diveRotationSpeed;
+    public float jumpStrength;
+    [Range(0,1)] public float airControlPercent;
 
     [Header("Constraints")]
+    public Transform startingPosition;
     public bool isGrounded;
     public bool isMoving;
     public bool isDiving = false;
     public bool chargeDive = false;
     public bool isStuck = false;
+    public bool isWet = false;
+
+    [Header("Effects")]
+    public ParticleSystem rocket;
+    public AudioSource walkingAudioSource;
+    public AudioSource flyingAudioSource;
+    public AudioClip[] audioClips;
 
     int divesLeft = 1;
 
@@ -47,10 +56,8 @@ public class PlayerController : MonoBehaviour
 
         controls.Movement.Jump.started += context => Jump();
 
-
         controls.Movement.ChargeDive.performed += controls => ChargeDive();
         controls.Movement.Dive.performed += context => Dive();
-
     }
 
     void OnEnable()
@@ -64,20 +71,22 @@ public class PlayerController : MonoBehaviour
     }
 
     void Start()
-    { 
-
+    {
+        transform.position = startingPosition.position;
     }
 
     void Update()
     {
         IncreaseDiveStrength();
         ChangesWhenStuck();
+
+        PlayAudio();
     }
 
     void FixedUpdate()
     {
-        Rotation();
         Movement();
+        Rotation();
     }
 
     void LateUpdate()
@@ -97,23 +106,41 @@ public class PlayerController : MonoBehaviour
     {
         if (!isStuck && !isDiving && !chargeDive)
         {
-            moveDirection = Vector3.forward * inputDirection.y + Vector3.right * inputDirection.x;
-
-            Vector3 cameraForward = Vector3.ProjectOnPlane(Camera.main.transform.forward, Vector3.up);
-            rotationToCamera = Quaternion.LookRotation(cameraForward, Vector3.up);
-
-            moveDirection = rotationToCamera * moveDirection;
-
-            if (inputDirection.y != 0 || inputDirection.x != 0)
+            if (!isDiving)
             {
-                rigidbody.MovePosition(rigidbody.position + moveDirection * moveSpeed * Time.deltaTime);
-                isMoving = true;
-            }
-            else
-            {
-                isMoving = false;
+                moveDirection = Vector3.forward * inputDirection.y + Vector3.right * inputDirection.x;
+
+                Vector3 cameraForward = Vector3.ProjectOnPlane(Camera.main.transform.forward, Vector3.up);
+                rotationToCamera = Quaternion.LookRotation(cameraForward, Vector3.up);
+
+                moveDirection = rotationToCamera * moveDirection;
+
+                if (inputDirection.y != 0 || inputDirection.x != 0)
+                {
+                    rigidbody.MovePosition(rigidbody.position + moveDirection * moveSpeed * Time.deltaTime);
+
+                    isMoving = true;
+                }
+                else
+                {
+                    isMoving = false;
+                }
             }
         }
+    }
+
+    Vector3 AirControlChange(Vector3 _vector)
+    {
+        if (isGrounded)
+        {
+            return _vector;
+        }
+        if (airControlPercent == 0)
+        {
+            return new Vector3(float.MaxValue, float.MaxValue, float.MaxValue);
+        }
+
+        return _vector * airControlPercent;
     }
 
     void Rotation()
@@ -126,6 +153,10 @@ public class PlayerController : MonoBehaviour
                 {
                     rotationToMoveDirection = Quaternion.LookRotation(moveDirection, Vector3.up);
                     transform.rotation = Quaternion.RotateTowards(transform.rotation, rotationToMoveDirection, rotationSpeed * Time.deltaTime);
+                }
+                if (isDiving)
+                {
+                    DiveRotation();
                 }
             }
             else
@@ -149,7 +180,7 @@ public class PlayerController : MonoBehaviour
         if (isStuck)
         {
             isStuck = false;
-            rigidbody.AddForce(Vector3.up - transform.forward * jumpStrength, ForceMode.Impulse);
+            rigidbody.AddForce(Vector3.up - transform.forward * jumpStrength/200, ForceMode.Impulse);
             animator.speed = 1;
             animator.SetBool("Jump", true);
         }
@@ -165,7 +196,7 @@ public class PlayerController : MonoBehaviour
     {
         if (!isDiving && divesLeft > 0)
         {
-            Physics.gravity = new Vector3(0.0f, -1.0f, 0.0f);
+            Physics.gravity = new Vector3(0.0f, -3.0f, 0.0f);
 
             chargeDive = true;
         }
@@ -176,6 +207,10 @@ public class PlayerController : MonoBehaviour
         if (chargeDive && diveStrength < maxDiveStrength)
         {
             diveStrength += 30.0f * Time.deltaTime;
+            if (rigidbody.velocity != Vector3.zero)
+            {
+                rigidbody.AddForce(-rigidbody.velocity);
+            }
         }
         if (diveStrength > maxDiveStrength)
         {
@@ -194,8 +229,10 @@ public class PlayerController : MonoBehaviour
             //rigidbody.AddTorque(Camera.main.transform.forward + new Vector3(1, 0, 0) * diveStrength/500, ForceMode.Impulse);
 
             chargeDive = false;
-            diveStrength = 0.0f;
+            diveStrength = 10.0f;
             animator.SetBool("Dive", true);
+
+            rocket.Play();
         }
     }
 
@@ -226,6 +263,42 @@ public class PlayerController : MonoBehaviour
         animator.speed = 2;
     }
 
+    void PlayAudio()
+    {
+        if (isMoving && isGrounded && !isStuck)
+        {
+            if (!walkingAudioSource.isPlaying)
+            {
+                walkingAudioSource.Play();
+            }
+        }
+        else
+        {
+            walkingAudioSource.Stop();
+        }
+
+        if (isDiving && !isWet)
+        {
+            if (!flyingAudioSource.isPlaying)
+            {
+                flyingAudioSource.Play();
+            }
+        }
+        else
+        {
+            if (flyingAudioSource.isPlaying)
+            {
+                flyingAudioSource.volume -= 0.010f;
+
+                if (flyingAudioSource.volume <= 0.0f)
+                {
+                    flyingAudioSource.Stop();
+                    flyingAudioSource.volume = 0.5f;
+                }
+            }
+        }
+    }
+
     void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
@@ -239,6 +312,14 @@ public class PlayerController : MonoBehaviour
 
             isDiving = false;
             divesLeft = 1;
+
+            rocket.Stop();
+        }
+
+        if (collision.gameObject.GetComponent<GroundPlatformComponent>())
+        {
+            isGrounded = true;
+            transform.SetParent(collision.gameObject.transform);
         }
     }
 
@@ -250,6 +331,12 @@ public class PlayerController : MonoBehaviour
             isDiving = false;
             divesLeft = 1;
         }
+
+        if (collision.gameObject.GetComponent<GroundPlatformComponent>())
+        {
+            isGrounded = true;
+            transform.SetParent(collision.gameObject.transform);
+        }
     }
 
     void OnCollisionExit(Collision collision)
@@ -258,11 +345,17 @@ public class PlayerController : MonoBehaviour
         {
             isGrounded = false;
         }
+
+        if (collision.gameObject.GetComponent<GroundPlatformComponent>())
+        {
+            isGrounded = false;
+            transform.SetParent(null);
+        }
     }
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Stickable"))
+        if (other.gameObject.GetComponent<StickableComponent>())
         {
             if (isDiving)
             {
@@ -271,18 +364,24 @@ public class PlayerController : MonoBehaviour
                 isDiving = false;
                 divesLeft = 1;
                 rigidbody.constraints = RigidbodyConstraints.FreezeRotation;
+
+                transform.SetParent(other.gameObject.transform);
+
+                rocket.Stop();
             }
         }
     }
 
     void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.CompareTag("Stickable"))
-        { 
+        if (other.gameObject.GetComponent<StickableComponent>())
+        {
             isStuck = false;
             isGrounded = false;
             rigidbody.constraints = RigidbodyConstraints.None;
             rigidbody.constraints = RigidbodyConstraints.FreezeRotationZ | RigidbodyConstraints.FreezeRotationX;
+
+            transform.SetParent(null);
         }
     }
 
