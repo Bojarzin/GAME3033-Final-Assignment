@@ -16,6 +16,8 @@ public class WaterHazard : MonoBehaviour
     bool startDelay = false;
     bool secondDelay = false;
 
+    public bool isWater = true;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -43,17 +45,35 @@ public class WaterHazard : MonoBehaviour
         if (secondDelay)
         {
             delayRespawn += Time.deltaTime;
-            if (delayRespawn >= 2.0f)
+            if (isWater)
             {
-                player.transform.localScale = new Vector3(0.35f, 0.35f, 0.35f); ;
-                player.rigidbody.useGravity = true;
-                player.isWet = false;
-                player.transform.position = GameManager.Instance().activeRespawn.position;
-                player.transform.rotation = GameManager.Instance().activeRespawn.rotation;
-                freeLookCamera.m_XAxis.m_MaxSpeed = 250;
-                freeLookCamera.m_YAxis.m_MaxSpeed = 2;
-                delayRespawn = 0.0f;
-                secondDelay = false;
+                if (delayRespawn >= 2.0f)
+                {
+                    player.transform.localScale = new Vector3(0.35f, 0.35f, 0.35f); ;
+                    player.rigidbody.useGravity = true;
+                    player.isWet = false;
+                    player.transform.position = GameManager.Instance().activeRespawn.position;
+                    player.transform.rotation = GameManager.Instance().activeRespawn.rotation;
+                    freeLookCamera.m_XAxis.m_MaxSpeed = 250;
+                    freeLookCamera.m_YAxis.m_MaxSpeed = 2;
+                    delayRespawn = 0.0f;
+                    secondDelay = false;
+                }
+            }
+            else
+            {
+                if (delayRespawn >= 0.0f)
+                {
+                    player.transform.localScale = new Vector3(0.35f, 0.35f, 0.35f); ;
+                    player.rigidbody.useGravity = true;
+                    player.isWet = false;
+                    player.transform.position = GameManager.Instance().activeRespawn.position;
+                    player.transform.rotation = GameManager.Instance().activeRespawn.rotation;
+                    freeLookCamera.m_XAxis.m_MaxSpeed = 250;
+                    freeLookCamera.m_YAxis.m_MaxSpeed = 2;
+                    delayRespawn = 0.0f;
+                    secondDelay = false;
+                }
             }
         }
     }
@@ -67,7 +87,10 @@ public class WaterHazard : MonoBehaviour
                 player.isWet = true;
                 startDelay = true;
 
-                Instantiate(splash, player.transform.position + Vector3.up, Quaternion.identity);
+                if (isWater)
+                {
+                    Instantiate(splash, player.transform.position + Vector3.up / 2, Quaternion.identity);
+                }
             }
         }
     }

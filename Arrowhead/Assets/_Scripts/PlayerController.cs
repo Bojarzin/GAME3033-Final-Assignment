@@ -34,6 +34,7 @@ public class PlayerController : MonoBehaviour
     public ParticleSystem rocket;
     public AudioSource walkingAudioSource;
     public AudioSource flyingAudioSource;
+    public AudioSource stuckAudioSource;
     public AudioClip[] audioClips;
 
     int divesLeft = 1;
@@ -58,6 +59,8 @@ public class PlayerController : MonoBehaviour
 
         controls.Movement.ChargeDive.performed += controls => ChargeDive();
         controls.Movement.Dive.performed += context => Dive();
+
+        controls.Movement.Pause.performed += context => PauseGame();
     }
 
     void OnEnable()
@@ -94,12 +97,9 @@ public class PlayerController : MonoBehaviour
         UpdateRunAndIdleAnimation();
     }
 
-    public void OnJump(InputAction.CallbackContext _value)
+    void PauseGame()
     {
-        if (_value.interaction is HoldInteraction)
-        {
-            Debug.Log("Jump");
-        }
+        Time.timeScale = 0.0f;
     }
 
     void Movement()
@@ -194,7 +194,7 @@ public class PlayerController : MonoBehaviour
 
     void ChargeDive()
     {
-        if (!isDiving && divesLeft > 0)
+        if (!isDiving && divesLeft > 0 && Time.timeScale != 0.0f)
         {
             Physics.gravity = new Vector3(0.0f, -3.0f, 0.0f);
 
@@ -297,6 +297,12 @@ public class PlayerController : MonoBehaviour
                 }
             }
         }
+
+        if (Time.timeScale != 1.0f)
+        {
+            walkingAudioSource.Stop();
+            flyingAudioSource.Stop();
+        }
     }
 
     void OnCollisionEnter(Collision collision)
@@ -325,12 +331,12 @@ public class PlayerController : MonoBehaviour
 
     void OnCollisionStay(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Ground"))
-        {
-            isGrounded = true;
-            isDiving = false;
-            divesLeft = 1;
-        }
+        //if (collision.gameObject.CompareTag("Ground"))
+        //{
+        //    isGrounded = true;
+        //    isDiving = false;
+        //    divesLeft = 1;
+        //}
 
         if (collision.gameObject.GetComponent<GroundPlatformComponent>())
         {
@@ -368,7 +374,18 @@ public class PlayerController : MonoBehaviour
                 transform.SetParent(other.gameObject.transform);
 
                 rocket.Stop();
+
+                if (!stuckAudioSource.isPlaying)
+                {
+                    stuckAudioSource.Play();
+                    stuckAudioSource.time = 0.05f;
+                }
             }
+        }
+
+        if (other.gameObject.GetComponent<GroundPlatformComponent>())
+        {
+            transform.SetParent(other.gameObject.transform);
         }
     }
 

@@ -29,7 +29,7 @@ public class Gem : MonoBehaviour
     {
         audioSource.Play();
 
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(1.5f);
 
         Destroy(gameObject);
     }
@@ -40,6 +40,7 @@ public class Gem : MonoBehaviour
         {
             GameManager.Instance().gemsCollected.Add(this);
             sprite.color = new Vector4(1.0f, 1.0f, 1.0f, 1.0f);
+            transform.localScale = new Vector3(0, 0, 0);
             StartCoroutine(KillSelf());
         }
     }

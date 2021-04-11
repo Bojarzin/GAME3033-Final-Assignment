@@ -8,8 +8,6 @@ public class UIUpdater : MonoBehaviour
     [SerializeField] Slider diveChargeSlider;
     [SerializeField] PlayerController arrowhead;
 
-
-
     // Start is called before the first frame update
     void Start()
     {
