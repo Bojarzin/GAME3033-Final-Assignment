@@ -1,0 +1,7 @@
+Thanks for trying my game!
+
+All assets were made by me (other than music and SFX. Am I gonna get in trouble for that? :P).
+I am not an artist, that is evident, but I just want to point that out!
+
+There are some functional bugs. Using the arrow ability from the ground can be really messy, and sticking into stuff doesn't always work
+I should really add an indication for which things can even be stuck into...

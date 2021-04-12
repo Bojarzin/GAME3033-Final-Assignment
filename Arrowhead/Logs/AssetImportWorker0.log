@@ -1627,3 +1627,924 @@ System memory in use after: 185.0 MB.
 Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2394.
 Total: 2.980000 ms (FindLiveObjects: 0.286300 ms CreateObjectMapping: 0.041500 ms MarkObjects: 2.333900 ms  DeleteObjects: 0.316900 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000692 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.912 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1733 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.0 MB.
+System memory in use after: 185.0 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2396.
+Total: 2.169500 ms (FindLiveObjects: 0.297900 ms CreateObjectMapping: 0.042400 ms MarkObjects: 1.620500 ms  DeleteObjects: 0.207500 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.7 MB.
+System memory in use after: 150.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2396.
+Total: 2.178400 ms (FindLiveObjects: 0.254500 ms CreateObjectMapping: 0.040800 ms MarkObjects: 1.657100 ms  DeleteObjects: 0.225100 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.7 MB.
+System memory in use after: 150.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2396.
+Total: 2.265000 ms (FindLiveObjects: 0.275300 ms CreateObjectMapping: 0.051300 ms MarkObjects: 1.722500 ms  DeleteObjects: 0.214900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000732 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.872 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1733 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.4 MB.
+System memory in use after: 185.3 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2398.
+Total: 2.088400 ms (FindLiveObjects: 0.221500 ms CreateObjectMapping: 0.041800 ms MarkObjects: 1.606800 ms  DeleteObjects: 0.217300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000708 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.881 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1733 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.4 MB.
+System memory in use after: 185.3 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2400.
+Total: 3.254300 ms (FindLiveObjects: 0.364400 ms CreateObjectMapping: 0.048500 ms MarkObjects: 2.543800 ms  DeleteObjects: 0.295800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000723 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.863 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1733 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.4 MB.
+System memory in use after: 185.3 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2402.
+Total: 2.779400 ms (FindLiveObjects: 0.529000 ms CreateObjectMapping: 0.063600 ms MarkObjects: 1.919100 ms  DeleteObjects: 0.265400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000745 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.883 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1733 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.4 MB.
+System memory in use after: 185.4 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2404.
+Total: 2.097000 ms (FindLiveObjects: 0.233400 ms CreateObjectMapping: 0.041100 ms MarkObjects: 1.596200 ms  DeleteObjects: 0.225500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000818 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.900 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1733 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.4 MB.
+System memory in use after: 185.4 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2406.
+Total: 2.349600 ms (FindLiveObjects: 0.283800 ms CreateObjectMapping: 0.041200 ms MarkObjects: 1.805800 ms  DeleteObjects: 0.217400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000688 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.860 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1733 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.4 MB.
+System memory in use after: 185.4 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2408.
+Total: 2.057200 ms (FindLiveObjects: 0.220400 ms CreateObjectMapping: 0.038000 ms MarkObjects: 1.594200 ms  DeleteObjects: 0.203300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000993 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.909 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1733 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.4 MB.
+System memory in use after: 185.4 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2410.
+Total: 2.322400 ms (FindLiveObjects: 0.240700 ms CreateObjectMapping: 0.041000 ms MarkObjects: 1.756800 ms  DeleteObjects: 0.282600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000834 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.879 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1733 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.4 MB.
+System memory in use after: 185.4 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2412.
+Total: 2.338600 ms (FindLiveObjects: 0.252300 ms CreateObjectMapping: 0.041500 ms MarkObjects: 1.848000 ms  DeleteObjects: 0.195300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000767 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.934 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1733 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.4 MB.
+System memory in use after: 185.4 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2414.
+Total: 2.754000 ms (FindLiveObjects: 0.406100 ms CreateObjectMapping: 0.043900 ms MarkObjects: 2.090200 ms  DeleteObjects: 0.212400 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.13 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.2 MB.
+System memory in use after: 151.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2414.
+Total: 3.385500 ms (FindLiveObjects: 0.357700 ms CreateObjectMapping: 0.043200 ms MarkObjects: 2.720900 ms  DeleteObjects: 0.261700 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.2 MB.
+System memory in use after: 151.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2414.
+Total: 4.066200 ms (FindLiveObjects: 0.443800 ms CreateObjectMapping: 0.059700 ms MarkObjects: 3.182400 ms  DeleteObjects: 0.377000 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.2 MB.
+System memory in use after: 151.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2414.
+Total: 2.201100 ms (FindLiveObjects: 0.264800 ms CreateObjectMapping: 0.039800 ms MarkObjects: 1.686700 ms  DeleteObjects: 0.208400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 5719.692679 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fcff52a7376cf3d1669684e43df3c98') in 0.129394 seconds
+  Import took 0.133660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001512 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fcff52a7376cf3d1669684e43df3c98') in 0.008200 seconds
+  Import took 0.010694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.504262 seconds.
+  path: Assets/_Prefabs/Main Building.prefab
+  artifactKey: Guid(315b2f2250f1f63419006a4e99c823fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefabs/Main Building.prefab using Guid(315b2f2250f1f63419006a4e99c823fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc325327f650a562cdf5142d1b20b131') in 0.045611 seconds
+  Import took 0.048722 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.8 MB.
+System memory in use after: 151.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2452.
+Total: 2.846600 ms (FindLiveObjects: 0.364000 ms CreateObjectMapping: 0.040400 ms MarkObjects: 2.220100 ms  DeleteObjects: 0.220700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000710 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.882 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1733 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.8 MB.
+System memory in use after: 185.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2454.
+Total: 2.454400 ms (FindLiveObjects: 0.270800 ms CreateObjectMapping: 0.042100 ms MarkObjects: 1.890800 ms  DeleteObjects: 0.249100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000755 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.869 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1733 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.8 MB.
+System memory in use after: 185.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2456.
+Total: 2.124600 ms (FindLiveObjects: 0.274000 ms CreateObjectMapping: 0.048000 ms MarkObjects: 1.599900 ms  DeleteObjects: 0.201500 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.6 MB.
+System memory in use after: 151.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2456.
+Total: 2.144700 ms (FindLiveObjects: 0.250400 ms CreateObjectMapping: 0.042100 ms MarkObjects: 1.596900 ms  DeleteObjects: 0.254400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1736.123309 seconds.
+  path: Assets/Art/Sprites/Arrowhead.png
+  artifactKey: Guid(1945c2e8ecd2e964d82ef85e402cfbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Arrowhead.png using Guid(1945c2e8ecd2e964d82ef85e402cfbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd42d3021a7b4b157c1de1bd017323e8') in 0.034561 seconds
+  Import took 0.038123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-5_comp_shadowmask.png
+  artifactKey: Guid(c262fee1c20b17e4baacb071b773ed6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-5_comp_shadowmask.png using Guid(c262fee1c20b17e4baacb071b773ed6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b0b2408a255f7261a571bf8e1708582') in 0.018183 seconds
+  Import took 0.021492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-11_comp_light.exr
+  artifactKey: Guid(5bf2ad1be01f3a24a979d37c1a7c606d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-11_comp_light.exr using Guid(5bf2ad1be01f3a24a979d37c1a7c606d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac090d031557305a13b141b60d03e152') in 0.048683 seconds
+  Import took 0.052123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-8_comp_dir.png
+  artifactKey: Guid(a2fea8740e8bb4a469ca70fcd4f85b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-8_comp_dir.png using Guid(a2fea8740e8bb4a469ca70fcd4f85b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e913cc5bb75fd559cc8bdcef76c6fac') in 0.012233 seconds
+  Import took 0.015660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-12_comp_light.exr
+  artifactKey: Guid(26c241728dd1bb7468bcef22e8f5678f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-12_comp_light.exr using Guid(26c241728dd1bb7468bcef22e8f5678f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8d86fb4022a32efeda3fd4e2cb35f0') in 0.015266 seconds
+  Import took 0.018267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-16_comp_dir.png
+  artifactKey: Guid(bd98cb92f2fd4a44d863c7e809a7596e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-16_comp_dir.png using Guid(bd98cb92f2fd4a44d863c7e809a7596e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc0212b4db31633300bdf70fc4a299c') in 0.013931 seconds
+  Import took 0.017523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-13_comp_light.exr
+  artifactKey: Guid(527ad068f4805ec48adc15f04f50d5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-13_comp_light.exr using Guid(527ad068f4805ec48adc15f04f50d5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6892d238a50d3b09a61add7b64f22b1b') in 0.012856 seconds
+  Import took 0.015803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-14_comp_dir.png
+  artifactKey: Guid(4515be58feb32b04c80303408b77611c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-14_comp_dir.png using Guid(4515be58feb32b04c80303408b77611c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1082d8581c969683d301f6a2cf13d5ec') in 0.014541 seconds
+  Import took 0.017531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(975c366458f65aa45aefe49119f0d64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-0_comp_shadowmask.png using Guid(975c366458f65aa45aefe49119f0d64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd264197a1579a04d6ca5cb111485aaa7') in 0.011546 seconds
+  Import took 0.014562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-4_comp_shadowmask.png
+  artifactKey: Guid(06562f3913c8f81438e50cd515e0788e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-4_comp_shadowmask.png using Guid(06562f3913c8f81438e50cd515e0788e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c12b93f0de114a7ca01984097880ebf') in 0.012620 seconds
+  Import took 0.015625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-3_comp_dir.png
+  artifactKey: Guid(7b108e258b08f03469191c739b937b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-3_comp_dir.png using Guid(7b108e258b08f03469191c739b937b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d4a95bc28935ecd5b42a52615c8aec') in 0.012759 seconds
+  Import took 0.016077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-1_comp_dir.png
+  artifactKey: Guid(ff001e370b351e3419644b6c52af5682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-1_comp_dir.png using Guid(ff001e370b351e3419644b6c52af5682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '223f2eae1de74236b6563eaa2ad35715') in 0.010481 seconds
+  Import took 0.013045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-13_comp_shadowmask.png
+  artifactKey: Guid(03324ef1511afb84da52926a9ea11906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-13_comp_shadowmask.png using Guid(03324ef1511afb84da52926a9ea11906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dbd3c4022bc639c624402b27e931431') in 0.009099 seconds
+  Import took 0.012291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-10_comp_light.exr
+  artifactKey: Guid(213163345809841409bb21bede17fe43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-10_comp_light.exr using Guid(213163345809841409bb21bede17fe43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c700907a3f9ccfdaa105ba7a86283f2d') in 0.009760 seconds
+  Import took 0.012985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-11_comp_dir.png
+  artifactKey: Guid(fe9e9ed96f0714a45aa92ebc03a0296d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-11_comp_dir.png using Guid(fe9e9ed96f0714a45aa92ebc03a0296d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea9f8cf07304e41a40db417d5a7819e') in 0.010366 seconds
+  Import took 0.013789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-15_comp_dir.png
+  artifactKey: Guid(a3a5705eb35fcf74cb363e8b4efe6922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-15_comp_dir.png using Guid(a3a5705eb35fcf74cb363e8b4efe6922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9241ce1114f28129ec8c22a96cc50f') in 0.010368 seconds
+  Import took 0.013067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Art/Main Menu/MainMenu.png
+  artifactKey: Guid(9b67f039cee1cc749a83613e508ed4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Main Menu/MainMenu.png using Guid(9b67f039cee1cc749a83613e508ed4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0401a9de0e322cf1381619e888ef3d3d') in 0.020054 seconds
+  Import took 0.023083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-5_comp_dir.png
+  artifactKey: Guid(8b39bc2049aa5fb4ba2db43a404d6ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-5_comp_dir.png using Guid(8b39bc2049aa5fb4ba2db43a404d6ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9fa1b4266498081fd266ae4ff6fc6ea') in 0.012652 seconds
+  Import took 0.015817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-6_comp_dir.png
+  artifactKey: Guid(cccaa5aea4f52f745a4e4e2b28b57174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-6_comp_dir.png using Guid(cccaa5aea4f52f745a4e4e2b28b57174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a62bc30f6285e24619eaf80d1746db') in 0.009956 seconds
+  Import took 0.013338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-14_comp_light.exr
+  artifactKey: Guid(6ddf0e46a9a56234b830df2fc2b011ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-14_comp_light.exr using Guid(6ddf0e46a9a56234b830df2fc2b011ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f3f0f129d5e55138bef94bff76dcd0') in 0.009766 seconds
+  Import took 0.012791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-16_comp_shadowmask.png
+  artifactKey: Guid(ee66e3325f6e6a342926e01871d08ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-16_comp_shadowmask.png using Guid(ee66e3325f6e6a342926e01871d08ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb418e42cfeadbdb3e9c4cf07b0e3878') in 0.010586 seconds
+  Import took 0.013596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/_Scenes/Game Scene/ReflectionProbe-0.exr
+  artifactKey: Guid(51f08df807c5ca44b9579b2490dd26c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/ReflectionProbe-0.exr using Guid(51f08df807c5ca44b9579b2490dd26c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67755feb3a5c29a234aa4584101cf6bb') in 0.029656 seconds
+  Import took 0.032803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-9_comp_dir.png
+  artifactKey: Guid(735efcbdcd5ef7b41a8970f8e1e2cb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-9_comp_dir.png using Guid(735efcbdcd5ef7b41a8970f8e1e2cb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ae83193502bbcbee27ecf3123c0096') in 0.014693 seconds
+  Import took 0.017802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-10_comp_dir.png
+  artifactKey: Guid(dcc978273204cc84b8c5ebe3f8e2e9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-10_comp_dir.png using Guid(dcc978273204cc84b8c5ebe3f8e2e9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2823cc9a75ea7a1464927f293df90da') in 0.010224 seconds
+  Import took 0.013115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-0_comp_dir.png
+  artifactKey: Guid(03f138d525547364a97ff6b8d2f21232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-0_comp_dir.png using Guid(03f138d525547364a97ff6b8d2f21232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279cf38a92e9c0fd3c6f98b818a38435') in 0.011107 seconds
+  Import took 0.014016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-5_comp_light.exr
+  artifactKey: Guid(cadc2f5a234c51b40805ada9b0b8c175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-5_comp_light.exr using Guid(cadc2f5a234c51b40805ada9b0b8c175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61de461d43fb290811f2f36ab9cb76f1') in 0.009178 seconds
+  Import took 0.011913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-14_comp_shadowmask.png
+  artifactKey: Guid(f46c7bd63524a724e8b63b0e897282fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-14_comp_shadowmask.png using Guid(f46c7bd63524a724e8b63b0e897282fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db488354828f5d22feaa225a17833c88') in 0.009923 seconds
+  Import took 0.012590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-4_comp_dir.png
+  artifactKey: Guid(6da94c8a780cfa146a1fbf6c6f2f868a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-4_comp_dir.png using Guid(6da94c8a780cfa146a1fbf6c6f2f868a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49ddbb55c57c4d3a0d74ee23c0262009') in 0.010122 seconds
+  Import took 0.012898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-9_comp_light.exr
+  artifactKey: Guid(e8024eec12aa927459dfbe5998b0812d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-9_comp_light.exr using Guid(e8024eec12aa927459dfbe5998b0812d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7991d56efa8ef434737fa26baa7ce81') in 0.010305 seconds
+  Import took 0.013171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-1_comp_light.exr
+  artifactKey: Guid(e2ddba63ab5d6844380c15b682b8a9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-1_comp_light.exr using Guid(e2ddba63ab5d6844380c15b682b8a9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a71face133e11ec58e1e0fb7e743a7') in 0.010482 seconds
+  Import took 0.013224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-3_comp_shadowmask.png
+  artifactKey: Guid(07d41d79c3f59a0478d3780119d249a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-3_comp_shadowmask.png using Guid(07d41d79c3f59a0478d3780119d249a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '707405949476135e5fa544a22582e33f') in 0.009568 seconds
+  Import took 0.012530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-15_comp_shadowmask.png
+  artifactKey: Guid(6028038023c74144fb29f1ba4f453e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-15_comp_shadowmask.png using Guid(6028038023c74144fb29f1ba4f453e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfcba6dcfa7286ffc821472eed288999') in 0.010736 seconds
+  Import took 0.013323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-3_comp_light.exr
+  artifactKey: Guid(c0ff90616cd655642baa1b63bafe78a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-3_comp_light.exr using Guid(c0ff90616cd655642baa1b63bafe78a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '040a2862d5ccb5380b4c0ed00c7578e6') in 0.011595 seconds
+  Import took 0.014351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-12_comp_shadowmask.png
+  artifactKey: Guid(2400ab4e2c2b1394d928e2ce950ba7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-12_comp_shadowmask.png using Guid(2400ab4e2c2b1394d928e2ce950ba7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a00986a4c8c472e5a02b9a63af16db5') in 0.010820 seconds
+  Import took 0.013928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-9_comp_shadowmask.png
+  artifactKey: Guid(1f6a6967d0375964c998f954a273363c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-9_comp_shadowmask.png using Guid(1f6a6967d0375964c998f954a273363c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f517dc67e4e85a30a4eb991613e4fc') in 0.009843 seconds
+  Import took 0.012467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-1_comp_shadowmask.png
+  artifactKey: Guid(0bd428a86297a8e4fbd6d513d0593394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-1_comp_shadowmask.png using Guid(0bd428a86297a8e4fbd6d513d0593394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c14af3dcf0db52a10a13311b3f548c1') in 0.010663 seconds
+  Import took 0.013208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-2_comp_dir.png
+  artifactKey: Guid(b32d1e5f4fc61d549b192af83637447a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-2_comp_dir.png using Guid(b32d1e5f4fc61d549b192af83637447a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ff2e11ebc879dc96f51016a0b9a5b2') in 0.010094 seconds
+  Import took 0.012712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-10_comp_shadowmask.png
+  artifactKey: Guid(73d149ce90b64dd45b1a042ff8810ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-10_comp_shadowmask.png using Guid(73d149ce90b64dd45b1a042ff8810ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ad074af60f38e012b027ecdca2b6fc') in 0.009798 seconds
+  Import took 0.012633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-7_comp_dir.png
+  artifactKey: Guid(9cd05b5e16c8b644caa61b07878f4a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-7_comp_dir.png using Guid(9cd05b5e16c8b644caa61b07878f4a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80eae1b17d5e4a9044e7546709c919e1') in 0.009554 seconds
+  Import took 0.012017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-6_comp_shadowmask.png
+  artifactKey: Guid(c27a8be6bc81f58499f56c9347452fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-6_comp_shadowmask.png using Guid(c27a8be6bc81f58499f56c9347452fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bfb6aa80b8af76ec67cbff02b6f0c42') in 0.009904 seconds
+  Import took 0.012266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-7_comp_shadowmask.png
+  artifactKey: Guid(eab591e5fcf2eae43a949da4e0359c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-7_comp_shadowmask.png using Guid(eab591e5fcf2eae43a949da4e0359c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a2b9569fc24b60ff99086410157fe6') in 0.010571 seconds
+  Import took 0.013475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-7_comp_light.exr
+  artifactKey: Guid(0e066324d894e5c459744454e84f4c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-7_comp_light.exr using Guid(0e066324d894e5c459744454e84f4c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8770ae23d01b25c1030b7be27c0738ea') in 0.010316 seconds
+  Import took 0.013246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-8_comp_light.exr
+  artifactKey: Guid(e0a2937ee97048d4dac3dcfaa063f094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-8_comp_light.exr using Guid(e0a2937ee97048d4dac3dcfaa063f094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d901588d68afd6f1cfe80cd5cf30d0a') in 0.009712 seconds
+  Import took 0.012255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-6_comp_light.exr
+  artifactKey: Guid(064c820668128ae44a865f5e348aad58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-6_comp_light.exr using Guid(064c820668128ae44a865f5e348aad58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1d6ea54283af387d65ecc2c8e52ba23') in 0.010534 seconds
+  Import took 0.013227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-16_comp_light.exr
+  artifactKey: Guid(1f93f1120cd58b549beaa5789007bfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-16_comp_light.exr using Guid(1f93f1120cd58b549beaa5789007bfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f4115ff4dbcf9b61aa0e9e907ec1c5') in 0.010548 seconds
+  Import took 0.013554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d963847b6213c1825017be7f814d3c8') in 0.012569 seconds
+  Import took 0.015157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-13_comp_dir.png
+  artifactKey: Guid(08a954395c16a5544aac6069d87e8808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-13_comp_dir.png using Guid(08a954395c16a5544aac6069d87e8808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5158af5498588a446c481def15269589') in 0.009846 seconds
+  Import took 0.012437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-4_comp_light.exr
+  artifactKey: Guid(5d252ae3bba355c40ab5e6e6e7c1dae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-4_comp_light.exr using Guid(5d252ae3bba355c40ab5e6e6e7c1dae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3769cd0695163490acf00901b6a07cd') in 0.011065 seconds
+  Import took 0.013996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-2_comp_light.exr
+  artifactKey: Guid(7e23cd8e61d8a1348a5fbf3bb515749b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-2_comp_light.exr using Guid(7e23cd8e61d8a1348a5fbf3bb515749b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf59b3b9ec3e043b82e32d2683c0c25') in 0.009838 seconds
+  Import took 0.012594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-2_comp_shadowmask.png
+  artifactKey: Guid(96716befc5ac58847989b93f049cf684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-2_comp_shadowmask.png using Guid(96716befc5ac58847989b93f049cf684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9785d7eaf99e77e63e55b8fb552b780f') in 0.011492 seconds
+  Import took 0.014173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-8_comp_shadowmask.png
+  artifactKey: Guid(404422fbc15202e4d9d2b029bef37fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-8_comp_shadowmask.png using Guid(404422fbc15202e4d9d2b029bef37fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f553737e2659daeca972fe753e5af7a') in 0.009796 seconds
+  Import took 0.012355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-11_comp_shadowmask.png
+  artifactKey: Guid(47115e0ac628e7045b36e7a07eb5a2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-11_comp_shadowmask.png using Guid(47115e0ac628e7045b36e7a07eb5a2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d65e20455add7a5b116bc1e472ab279') in 0.010474 seconds
+  Import took 0.012910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-15_comp_light.exr
+  artifactKey: Guid(72e2a8c5e14900f4988f7e0d5be66a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-15_comp_light.exr using Guid(72e2a8c5e14900f4988f7e0d5be66a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15605356718c66930c28ec121ba71fdb') in 0.011326 seconds
+  Import took 0.013878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Art/Sprites/Arrowhead.png
+  artifactKey: Guid(1945c2e8ecd2e964d82ef85e402cfbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Arrowhead.png using Guid(1945c2e8ecd2e964d82ef85e402cfbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd42d3021a7b4b157c1de1bd017323e8') in 0.005520 seconds
+  Import took 0.008341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-12_comp_dir.png
+  artifactKey: Guid(9144301c6a08bd94aa8ae3cb973151d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-12_comp_dir.png using Guid(9144301c6a08bd94aa8ae3cb973151d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c1b5a3a9675ae93ebe03b35b3b4bfa') in 0.009899 seconds
+  Import took 0.012570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/_Scenes/Game Scene/Lightmap-0_comp_light.exr
+  artifactKey: Guid(db89f0d5e32cbdf4995b8a070fe4c8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Game Scene/Lightmap-0_comp_light.exr using Guid(db89f0d5e32cbdf4995b8a070fe4c8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '443b95d1859b21010301436f5493dc5a') in 0.011165 seconds
+  Import took 0.013645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.929948 seconds.
+  path: Assets/Terrain/TerrainData_1e8ff6ef-deee-4289-a694-de0d76528d7e.asset
+  artifactKey: Guid(205da79149e4e354da05ec9aee5c92c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/TerrainData_1e8ff6ef-deee-4289-a694-de0d76528d7e.asset using Guid(205da79149e4e354da05ec9aee5c92c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Tree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '1e8cbfcfd59f08f66664ea68e8a6483c') in 0.018749 seconds
+  Import took 0.022471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Terrain/TerrainData_e03cf4b0-d16c-4ffd-9ddd-9be3dfe90f61.asset
+  artifactKey: Guid(ae82a505a28d8fd4fb63230f74a815ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/TerrainData_e03cf4b0-d16c-4ffd-9ddd-9be3dfe90f61.asset using Guid(ae82a505a28d8fd4fb63230f74a815ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Tree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '86787a8cf7362836a26690b05d7d0978') in 0.017388 seconds
+  Import took 0.020324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Terrain/TerrainData_1e8ff6ef-deee-4289-a694-de0d76528d7e.asset
+  artifactKey: Guid(205da79149e4e354da05ec9aee5c92c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/TerrainData_1e8ff6ef-deee-4289-a694-de0d76528d7e.asset using Guid(205da79149e4e354da05ec9aee5c92c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Tree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '1e8cbfcfd59f08f66664ea68e8a6483c') in 0.011070 seconds
+  Import took 0.013867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Terrain/TerrainData_b268d1c0-e122-4d03-8b0a-90eda507f102.asset
+  artifactKey: Guid(9e28a10c9f7b8c44f8538e0de0fc5596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/TerrainData_b268d1c0-e122-4d03-8b0a-90eda507f102.asset using Guid(9e28a10c9f7b8c44f8538e0de0fc5596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f95b04c2f120978fcaf128d9fc8b5c') in 0.015461 seconds
+  Import took 0.018513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.174824 seconds.
+  path: Assets/Terrain/TerrainData_b268d1c0-e122-4d03-8b0a-90eda507f102.asset
+  artifactKey: Guid(9e28a10c9f7b8c44f8538e0de0fc5596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/TerrainData_b268d1c0-e122-4d03-8b0a-90eda507f102.asset using Guid(9e28a10c9f7b8c44f8538e0de0fc5596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f95b04c2f120978fcaf128d9fc8b5c') in 0.010919 seconds
+  Import took 0.013909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.034999 seconds.
+  path: Assets/Art/Sprites/Arrowhead.png
+  artifactKey: Guid(1945c2e8ecd2e964d82ef85e402cfbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Arrowhead.png using Guid(1945c2e8ecd2e964d82ef85e402cfbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a2122dbb8caca2a50e8db5173fd4041') in 0.016046 seconds
+  Import took 0.018933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 136.774101 seconds.
+  path: Assets/Art/Sprites/Arrowhead.png
+  artifactKey: Guid(1945c2e8ecd2e964d82ef85e402cfbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Arrowhead.png using Guid(1945c2e8ecd2e964d82ef85e402cfbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8829d8036a01b44d796fa86fe3e492') in 0.031800 seconds
+  Import took 0.035025 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.8 MB.
+System memory in use after: 152.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2465.
+Total: 3.156900 ms (FindLiveObjects: 0.320500 ms CreateObjectMapping: 0.049200 ms MarkObjects: 2.558100 ms  DeleteObjects: 0.227400 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
