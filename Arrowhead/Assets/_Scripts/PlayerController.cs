@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Interactions;
+using Cinemachine;
 
 public class PlayerController : MonoBehaviour
 {
@@ -331,12 +332,12 @@ public class PlayerController : MonoBehaviour
 
     void OnCollisionStay(Collision collision)
     {
-        //if (collision.gameObject.CompareTag("Ground"))
-        //{
-        //    isGrounded = true;
-        //    isDiving = false;
-        //    divesLeft = 1;
-        //}
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            isGrounded = true;
+            isDiving = false;
+            divesLeft = 1;
+        }
 
         if (collision.gameObject.GetComponent<GroundPlatformComponent>())
         {

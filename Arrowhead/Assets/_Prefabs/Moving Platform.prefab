@@ -47,7 +47,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 6428916163199400139}
   positionTwo: {fileID: 6195106878154625503}
+  rotationTwo: {fileID: 0}
   movementSpeed: 0.5
+  rotationSpeed: 0
+  rotate: 0
 --- !u!1 &6195106878154625502
 GameObject:
   m_ObjectHideFlags: 0
@@ -145,6 +148,10 @@ PrefabInstance:
     - target: {fileID: 6587329791461505629, guid: 656a4069657010041829517e5ed74f1b, type: 3}
       propertyPath: m_Name
       value: Platform Type 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6587329791461505629, guid: 656a4069657010041829517e5ed74f1b, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 656a4069657010041829517e5ed74f1b, type: 3}
