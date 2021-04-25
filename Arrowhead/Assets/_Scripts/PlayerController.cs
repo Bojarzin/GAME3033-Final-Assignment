@@ -178,14 +178,14 @@ public class PlayerController : MonoBehaviour
 
     void Jump()
     {
-        if (isStuck)
+        if (isStuck && !chargeDive)
         {
             isStuck = false;
             rigidbody.AddForce(Vector3.up - transform.forward * jumpStrength/200, ForceMode.Impulse);
             animator.speed = 1;
             animator.SetBool("Jump", true);
         }
-        if (isGrounded)
+        if (isGrounded && !chargeDive)
         {
             rigidbody.AddForce(Vector3.up * jumpStrength, ForceMode.Impulse);
             animator.speed = 1;
@@ -335,15 +335,13 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             isGrounded = true;
-            isDiving = false;
-            divesLeft = 1;
         }
 
-        if (collision.gameObject.GetComponent<GroundPlatformComponent>())
-        {
-            isGrounded = true;
-            transform.SetParent(collision.gameObject.transform);
-        }
+        //if (collision.gameObject.GetComponent<GroundPlatformComponent>())
+        //{
+        //    isGrounded = true;
+        //    transform.SetParent(collision.gameObject.transform);
+        //}
     }
 
     void OnCollisionExit(Collision collision)
