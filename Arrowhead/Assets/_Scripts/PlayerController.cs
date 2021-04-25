@@ -105,7 +105,7 @@ public class PlayerController : MonoBehaviour
 
     void Movement()
     {
-        if (!isStuck && !isDiving && !chargeDive)
+        if (!isStuck && !isDiving)
         {
             if (!isDiving)
             {
@@ -199,7 +199,6 @@ public class PlayerController : MonoBehaviour
         {
             Physics.gravity = new Vector3(0.0f, -3.0f, 0.0f);
 
-            isMoving = false;
             chargeDive = true;
         }
     }
