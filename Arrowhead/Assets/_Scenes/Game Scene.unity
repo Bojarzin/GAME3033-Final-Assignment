@@ -1999,6 +1999,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Arrowhead
       objectReference: {fileID: 0}
+    - target: {fileID: 8762434362794382981, guid: 4795e2b0c4acfaf4f93c80e7fd2ab3ba, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4795e2b0c4acfaf4f93c80e7fd2ab3ba, type: 3}
 --- !u!1001 &106513657
@@ -2601,7 +2605,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 136934473}
-  m_LocalRotation: {x: -0.0046586264, y: 0.995335, z: 0.069915384, w: 0.06632151}
+  m_LocalRotation: {x: -0.0046586287, y: 0.995335, z: 0.069915384, w: 0.066321544}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -19978,7 +19982,7 @@ MonoBehaviour:
   - m_Height: 1
     m_Radius: 5
   - m_Height: -1
-    m_Radius: 0.1
+    m_Radius: 0.5
   m_LegacyHeadingBias: 3.4028235e+38
   m_Rigs:
   - {fileID: 497408730}
@@ -20039,12 +20043,12 @@ MonoBehaviour:
   m_AvoidObstacles: 1
   m_DistanceLimit: 5
   m_MinimumOcclusionTime: 0
-  m_CameraRadius: 0.1
+  m_CameraRadius: 0.05
   m_Strategy: 1
   m_MaximumEffort: 10
-  m_SmoothingTime: 0.2
-  m_Damping: 0
-  m_DampingWhenOccluded: 0
+  m_SmoothingTime: 0.3
+  m_Damping: 0.5
+  m_DampingWhenOccluded: 0.5
   m_OptimalTargetDistance: 0
 --- !u!1001 &1171995960
 PrefabInstance:

@@ -107,7 +107,11 @@ public class PlayerController : MonoBehaviour
     {
         if (!isStuck && !isDiving)
         {
-            if (!isDiving)
+            if (!isGrounded && chargeDive)
+            {
+                
+            }
+            else
             {
                 moveDirection = Vector3.forward * inputDirection.y + Vector3.right * inputDirection.x;
 
@@ -146,7 +150,7 @@ public class PlayerController : MonoBehaviour
 
     void Rotation()
     {
-        if (!isStuck && !chargeDive)
+        if (!isStuck)
         {
             if (inputDirection.x != 0 || inputDirection.y != 0)
             {
@@ -197,8 +201,10 @@ public class PlayerController : MonoBehaviour
     {
         if (!isDiving && divesLeft > 0 && Time.timeScale != 0.0f)
         {
-            Physics.gravity = new Vector3(0.0f, -3.0f, 0.0f);
-
+            if (!isGrounded)
+            {
+                Physics.gravity = new Vector3(0.0f, -3.0f, 0.0f);
+            }
             chargeDive = true;
         }
     }
